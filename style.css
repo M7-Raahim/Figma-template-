@@ -84,6 +84,8 @@ nav a {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+    box-shadow: 5px 5px 5px #333;
+
 }
 .cta-button:hover{
   background-color: #2e2e2e;
@@ -177,6 +179,7 @@ nav a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    
 }
 
 .service-card {
@@ -184,6 +187,7 @@ nav a {
     border-radius: 20px;
     padding: 30px;
     position: relative;
+    box-shadow: 5px 5px 5px #333;
 }
 
 .service-card.green {
@@ -252,6 +256,8 @@ nav a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    box-shadow: 5px 5px 5px #333;
+
 }
 
 .step-active {
@@ -300,6 +306,7 @@ nav a {
 .contact-section {
     padding: 40px 80px;
     background-color: #fff;
+    
 }
 
 .contact-header {
@@ -315,6 +322,7 @@ nav a {
     margin-bottom: 30px;
     font-size: 14px;
     color: #666;
+    
 }
 
 .contact-form-container {
@@ -323,10 +331,13 @@ nav a {
     padding: 40px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 5px 5px 5px #333;
+
 }
 
 .contact-form {
     width: 60%;
+    
 }
 
 .form-header {
